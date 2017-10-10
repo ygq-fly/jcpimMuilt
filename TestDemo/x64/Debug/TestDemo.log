@@ -1,0 +1,18 @@
+﻿Build started 2017/10/9 8:22:44.
+     1>Project "D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\TestDemo\TestDemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\Sync_ProJects\Jointcom\JcPimMultiBandV2\JcPimMultiBandV2 /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp TestDemo.cpp
+         TestDemo.cpp
+     1>TestDemo.cpp : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         stdafx.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\x64\Debug\TestDemo.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\x64\Debug\TestDemo.pdb" /SUBSYSTEM:CONSOLE,"5.02" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\x64\Debug\TestDemo.lib" /MACHINE:X64 x64\Debug\stdafx.obj
+         x64\Debug\TestDemo.obj
+         "D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\Debug\JcPimMultiBandV2.lib"
+         TestDemo.vcxproj -> D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\x64\Debug\TestDemo.exe
+     1>Done Building Project "D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\TestDemo\TestDemo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.46

@@ -1,0 +1,62 @@
+﻿Build started 2017/9/27 8:40:18.
+     1>Project "D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\JcPimMultiBandV2\JcPimMultiBandV2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt 3rdParty\CppSQLite3.cpp dllmain.cpp JcApi.cpp JcOffsetDB.cpp MyUtil\JcCommonAPI.cpp RohdeSchwarz\ClsAnaRsFspSerial.cpp RohdeSchwarz\ClsSigRsSMxSerial.cpp stdafx.cpp Switch\ClsJcSwitch.cpp Switch\com_io_ctl.cpp Switch\implementsetting.cpp Switch\JcMatrixSwitch.cpp Tektronix\ClsSigTekTSG4000.cpp
+         CppSQLite3.cpp
+     1>3rdParty\CppSQLite3.cpp(396): warning C4244: 'argument' : conversion from '__int64' to 'int', possible loss of data
+         dllmain.cpp
+         JcApi.cpp
+     1>d:\紫光软件备份\jcpimmultibandv2（柜式机底层）\jcpimmultibandv2\JcPimObject.h(85): warning C4309: 'initializing' : truncation of constant value
+     1>d:\紫光软件备份\jcpimmultibandv2（柜式机底层）\jcpimmultibandv2\JcPimObject.h(397): warning C4800: 'UINT' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\紫光软件备份\jcpimmultibandv2（柜式机底层）\jcpimmultibandv2\JcPimObject.h(507): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\紫光软件备份\jcpimmultibandv2（柜式机底层）\jcpimmultibandv2\JcPimObject.h(508): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\紫光软件备份\jcpimmultibandv2（柜式机底层）\jcpimmultibandv2\JcPimObject.h(515): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\紫光软件备份\jcpimmultibandv2（柜式机底层）\jcpimmultibandv2\JcPimObject.h(516): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>d:\紫光软件备份\jcpimmultibandv2（柜式机底层）\jcpimmultibandv2\JcPimObject.h(766): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>JcApi.cpp(559): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         JcOffsetDB.cpp
+     1>JcOffsetDB.cpp(365): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>JcOffsetDB.cpp(429): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         JcCommonAPI.cpp
+     1>MyUtil\JcCommonAPI.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+         ClsAnaRsFspSerial.cpp
+         ClsSigRsSMxSerial.cpp
+         stdafx.cpp
+         ClsJcSwitch.cpp
+         com_io_ctl.cpp
+         implementsetting.cpp
+     1>d:\紫光软件备份\jcpimmultibandv2（柜式机底层）\jcpimmultibandv2\switch\switch_info_hw_ext12.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         JcMatrixSwitch.cpp
+         ClsSigTekTSG4000.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _USING_V110_SDK71_ /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt 3rdParty\sqlite3.c
+         sqlite3.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\JcPimMultiBandV2.res" JcPimMultiBandV2.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\Release\JcPimMultiBandV2.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\Release\JcPimMultiBandV2.pdb" /SUBSYSTEM:CONSOLE,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\Release\JcPimMultiBandV2.lib" /MACHINE:X86 /SAFESEH /DLL Release\JcPimMultiBandV2.res
+         Release\CppSQLite3.obj
+         Release\sqlite3.obj
+         Release\dllmain.obj
+         Release\JcApi.obj
+         Release\JcOffsetDB.obj
+         Release\JcCommonAPI.obj
+         Release\ClsAnaRsFspSerial.obj
+         Release\ClsSigRsSMxSerial.obj
+         Release\stdafx.obj
+         Release\ClsJcSwitch.obj
+         Release\com_io_ctl.obj
+         Release\implementsetting.obj
+         Release\JcMatrixSwitch.obj
+         Release\ClsSigTekTSG4000.obj
+         3rdParty\NrpControl2.lib
+         3rdParty\rsnrpz_32.lib
+         3rdParty\visa32.lib
+            Creating library D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\Release\JcPimMultiBandV2.lib and object D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\Release\JcPimMultiBandV2.exp
+         Generating code
+         Finished generating code
+         JcPimMultiBandV2.vcxproj -> D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\Release\JcPimMultiBandV2.dll
+     1>Done Building Project "D:\紫光软件备份\JcPimMultiBandV2（柜式机底层）\JcPimMultiBandV2\JcPimMultiBandV2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:13.60
